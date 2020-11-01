@@ -1,0 +1,17 @@
+{% extends 'inventory/base.html' %}
+{% block content %}
+
+
+    <h1>Product Information</h1>
+
+        <div class="buttion_place">
+            <a href="{% url 'edit' product.pk %}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true"> + Edit Product</a>
+        </div>
+
+       <label><h5>Name</h5></label>:  {{ product.name }} <br>
+       <label><h5>Category</h5></label>: {{ product.cetagory }}<br>
+       <label><h5>Supplier</h5></label>: {{ product.supplier }}<br>
+       <label><h5>Unit Price</h5></label>: {{ product.unit_price }}<br>
+       <label><h5>Description</h5>{{ product.description }}</label>
+
+{% endblock %}

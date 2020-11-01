@@ -1,0 +1,15 @@
+{% extends 'inventory/base.html' %}
+
+{% block content %}
+
+    <div class="buttion_place">
+        <a href="{% url 'addnew' %}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true"> + Add Product</a><br><br>
+        <a href="{% url 'addnew' %}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true"> Supllies</a><br><br>
+        <a href="{% url 'addnew' %}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true"> Sales</a><br><br>
+        <a href="{% url 'addnew' %}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true"> Food Production</a><br><br>
+        <a href="{% url 'addnew' %}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true"> Expenditures</a><br><br>
+        <a href="{% url 'addnew' %}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true"> Employees</a><br><br>
+    </div>
+
+{% endblock %}
+
