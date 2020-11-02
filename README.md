@@ -2,10 +2,6 @@
 
 ####how to Run this project
 
-1. Create Virtual Enviorment
-	```
-	mkvirtualenv --python=`which python3` nameOfEnvironment
-	```
 
 2. Install dependencies
 	```
