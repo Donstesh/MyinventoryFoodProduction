@@ -13,6 +13,13 @@ urlpatterns = [
     url(r'^addexp$', addexp, name='addexp'),
     url(r'^addemployee$', addemployee, name='addemployee'),
 
+    url(r'^editsuply/(?P<pk>\d+)$', editsuply, name="editsuply"),
+    url(r'^editsale/(?P<pk>\d+)$', editsale, name="editsale"),
+    url(r'^editexp/(?P<pk>\d+)$', editexp, name="editexp"),
+    url(r'^editemp/(?P<pk>\d+)$', editemp, name="editemp"),
 
-
+    url(r'^supllies$', supllies, name="supllies"),
+    url(r'^sales$', sales, name="sales"),
+    url(r'^expenditures$', expenditures, name="expenditures"),
+    url(r'^employees$', employees, name="employees"),
 ]
