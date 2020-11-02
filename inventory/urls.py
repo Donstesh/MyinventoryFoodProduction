@@ -7,4 +7,12 @@ urlpatterns = [
     url(r'^(?P<pk>\d+)$', detail, name="detail"),
     url(r'^edit/(?P<pk>\d+)$', edit, name="edit"),
     url(r'^addnew$', addnew, name="addnew"),
+
+    url(r'^addsupllier$', addsupllier, name='addsupllier'),
+    url(r'^addsale$', addsale, name='addsale'),
+    url(r'^addexp$', addexp, name='addexp'),
+    url(r'^addemployee$', addemployee, name='addemployee'),
+
+
+
 ]
